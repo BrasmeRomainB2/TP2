@@ -1,20 +1,21 @@
 #container
 {
 	margin: 0 30px;
-	background: #898;
+	background: #897;
 }
 
 #header
 {
-	background: #888;
+	background: #999;
 	padding: 20px;
 }
 
-#header h1 { margin: 0; }
+#header h6 { margin: 40px;
+ }
 
 #navigation
 {
-	float: left;
+	float: right;
 	width: 100%;
 	background: #333;
 }
@@ -41,7 +42,7 @@
 	border-right: 1px solid #fff;
 }
 
-#navigation li a:hover { background: #383; }
+#navigation li a:hover { background: #785; }
 
 #edito
 {
@@ -60,14 +61,14 @@
 	opacity: 0.83;
 }
 
-#edito h2
+#edito h3
 {
-	color: #000;
+	color: #111;
 	font-size: 160%;
 	margin: 0 0 .5em;
 }
 
-#news
+#news 
 {	
 	float: left;
 	width: 40%;
@@ -88,8 +89,8 @@
 #footer
 {
 	clear: both;
-	background: #ccc;
-	text-align: right;
+	background: #999;
+	text-align: center;
 	padding: 20px;
 	height: 1%;
 }
